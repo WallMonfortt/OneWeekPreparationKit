@@ -98,7 +98,6 @@ class MinHeap {
 function cookies(k, A) {
     // Write your code here
     const heap = new MinHeap();
-    const sortedArr = A.sort((a,b) => a - b)
     A.forEach((number) => {
         heap.insert(number);
     });
